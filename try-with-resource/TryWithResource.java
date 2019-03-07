@@ -11,10 +11,10 @@ class TryWithResource{
     }
 	
 /**
-D:\>java -jar cfr-0.140.jar TryWithResource.class --sugarboxing false
-/*
+   java -jar cfr-0.140.jar TryWithResource.class --sugarboxing false
+ 
  * Decompiled with CFR 0.140.
- */
+ 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
