@@ -11,6 +11,7 @@ enum Color
 
 /*
  * Decompiled with CFR 0.140.
+ * java -jar cfr-0.140.jar Color.class --sugarenums false
  */
 final class Color
 extends Enum<Color> {
