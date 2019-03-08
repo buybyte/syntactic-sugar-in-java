@@ -1,4 +1,4 @@
-D:\decompile>java -jar cfr-0.140.jar --help
+java -jar cfr-0.140.jar --help
 CFR 0.140
 
    --aexagg                         (boolean)
@@ -11,10 +11,10 @@ CFR 0.140
    --collectioniter                 (boolean)  default: true if class file from version 49.0 (Java 5) or greater
    --commentmonitors                (boolean)  default: false
    --comments                       (boolean)  default: true
-   --decodeenumswitch               (boolean)  default: true if class file from version 49.0 (Java 5) or greater
+   --decodeenumswitch               (boolean)  default: true if class file from version 49.0 (Java 5) or greater  //switch 枚举
    --decodefinally                  (boolean)  default: true
-   --decodelambdas                  (boolean)  default: true if class file from version 52.0 (Java 8) or greater
-   --decodestringswitch             (boolean)  default: true if class file from version 51.0 (Java 7) or greater
+   --decodelambdas                  (boolean)  default: true if class file from version 52.0 (Java 8) or greater  
+   --decodestringswitch             (boolean)  default: true if class file from version 51.0 (Java 7) or greater  //switch 字符串
    --dumpclasspath                  (boolean)  default: false
    --eclipse                        (boolean)  default: true
    --elidescala                     (boolean)  default: false
@@ -63,9 +63,9 @@ CFR 0.140
    --stringbuilder                  (boolean)  default: true if class file from version 49.0 (Java 5) or greater
    --stringconcat                   (boolean)  default: true if class file from version 53.0 (Java 9) or greater
    --sugarasserts                   (boolean)  default: true
-   --sugarboxing                    (boolean)  default: true
-   --sugarenums                     (boolean)  default: true if class file from version 49.0 (Java 5) or greater
+   --sugarboxing                    (boolean)  default: true                                                          //自动装箱拆箱
+   --sugarenums                     (boolean)  default: true if class file from version 49.0 (Java 5) or greater      //枚举
    --tidymonitors                   (boolean)  default: true
-   --tryresources                   (boolean)  default: true if class file from version 51.0 (Java 7) or greater
+   --tryresources                   (boolean)  default: true if class file from version 51.0 (Java 7) or greater      // try with resource
    --usenametable                   (boolean)  default: true
    --help                           (string)
