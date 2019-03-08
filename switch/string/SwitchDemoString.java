@@ -1,4 +1,4 @@
-public class switchDemoString {
+public class SwitchDemoString {
     public static void main(String[] args) {
         String str = "world";
         switch (str) {

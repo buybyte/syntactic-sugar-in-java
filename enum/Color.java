@@ -12,13 +12,13 @@ enum Color
 /*
  * Decompiled with CFR 0.140.
  * java -jar cfr-0.140.jar Color.class --sugarenums false
- */
+ 
 final class Color
 extends Enum<Color> {
-    public static final /* enum */ Color RED = new Color("RED", 0);
-    public static final /* enum */ Color GREEN = new Color("GREEN", 1);
-    public static final /* enum */ Color BLUE = new Color("BLUE", 2);
-    private static final /* synthetic */ Color[] $VALUES;
+    public static final  Color RED = new Color("RED", 0); // enum 
+    public static final  Color GREEN = new Color("GREEN", 1); // enum 
+    public static final  Color BLUE = new Color("BLUE", 2); // enum 
+    private static final   Color[] $VALUES;  //synthetic
 
     public static Color[] values() {
         return (Color[])$VALUES.clone();
@@ -36,3 +36,5 @@ extends Enum<Color> {
         $VALUES = new Color[]{RED, GREEN, BLUE};
     }
 }
+
+*/
