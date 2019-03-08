@@ -61,7 +61,7 @@ CFR 0.140
    --skipbatchinnerclasses          (boolean)  default: true
    --stringbuffer                   (boolean)  default: false if class file from version 49.0 (Java 5) or greater
    --stringbuilder                  (boolean)  default: true if class file from version 49.0 (Java 5) or greater
-   --stringconcat                   (boolean)  default: true if class file from version 53.0 (Java 9) or greater
+   --stringconcat                   (boolean)  default: true if class file from version 53.0 (Java 9) or greater      //断言
    --sugarasserts                   (boolean)  default: true
    --sugarboxing                    (boolean)  default: true                                                          //自动装箱拆箱
    --sugarenums                     (boolean)  default: true if class file from version 49.0 (Java 5) or greater      //枚举
