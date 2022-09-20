@@ -18,7 +18,7 @@ extends Enum<Color> {
     public static final  Color RED = new Color("RED", 0); // enum 
     public static final  Color GREEN = new Color("GREEN", 1); // enum 
     public static final  Color BLUE = new Color("BLUE", 2); // enum 
-    private static final   Color[] $VALUES;  //synthetic
+    private static final   Color[] $VALUES;  //synthetic 人工合成的
 
     public static Color[] values() {
         return (Color[])$VALUES.clone();
@@ -28,10 +28,12 @@ extends Enum<Color> {
         return Enum.valueOf(Color.class, string);
     }
 
+   // constructor
     private Color(String string, int n) {
         super(string, n);
     }
 
+    // Color array
     static {
         $VALUES = new Color[]{RED, GREEN, BLUE};
     }
